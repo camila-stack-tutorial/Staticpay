@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>T'ouche Dumont'</title>
+    <style>
+        body {
+            font-family: 'century gothic';
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            color: #7D4C7D;
+            margin-bottom: 30px;
+        }
+        .product {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e1e1e1;
+        }
+        .product img {
+            max-width: 200px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .product-details {
+            flex: 1;
+            margin-left: 20px;
+        }
+        .product-details h2 {
+            font-size: 24px;
+            color: #555;
+            margin: 0 0 10px;
+        }
+        .product-details p {
+            font-size: 16px;
+            color: #777777;
+        }
+        .product-details .price {
+            font-size: 20px;
+            color: #333;
+            margin-top: 10px;
+        }
+        .checkout-buttons {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .checkout-buttons a {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 30px;
+            font-family: 'maiandra gd';
+            font-size: 18px;
+            color: #fff;
+            background-color: #7D4C7D;
+            border-radius: 5px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s;
+        }
+        .checkout-buttons a.paypal:hover {
+            background-color: #003087;
+        }
+        .checkout-buttons a.credit-card:hover {
+            background-color: #009cde;
+        }
+        .checkout-buttons a.crypto:hover {
+            background-color: #f7931a;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>T'ouche Dumont' Wedding Dress</h1>
+
+        <!-- Product Section -->
+        <div class="product">
+            <img src="wedding-dress.webp" alt="Wedding Dress 1">
+            <div class="product-details">
+                <h2>Elegant Lace Wedding Dress</h2>
+                <p>Embrace elegance with this exquisite lace wedding dress, featuring intricate details and a timeless silhouette.</p>
+                <p>Bid your price for this classic!</p>
+                <div class="price">Ask price $999.99</div>
+            </div>
+        </div>
+
+        <!-- Checkout Buttons -->
+        <div class="checkout-buttons">
+            <a href="https://shorturl.at/Ntmwc" class="paypal">Bid with PayPal</a>
+            <a href="https://shorturl.at/Ntmwc" class="credit-card">Bid with Credit Card</a>
+            <a href="https://shorturl.at/KAFh8" class="crypto">Bid with Crypto</a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Elegant Weddings. All rights reserved.
+    </footer>
+</body>
+</html>
